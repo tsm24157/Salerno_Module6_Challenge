@@ -1,0 +1,89 @@
+html {
+    background-color: #bfcae2;
+}
+
+#header {
+    font-size: 40px;
+    color: white;
+    background-color: #3c596e;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#searchBox {
+    background-color: #fbf5ff;
+    border-radius: 5px;
+
+}
+
+#searchButton {
+    background-color: #2e4b74;
+    border-color: lightgrey;
+}
+
+#border {
+    border-bottom: 2px solid grey;
+    margin: 10px;
+}
+
+#parentContainer {
+    display: flex;
+    background-color: #bfcae2;
+}
+
+#cityMenu {
+    width: 25%;
+    margin-left: 5%;
+    margin-top: 1%;
+    justify-content: center;
+    text-align: center;
+
+}
+
+#weatherMenu {
+    width: 60%;
+    margin: 5%;
+
+}
+
+#currentInfo {
+    text-align: center;
+    background-color: #a0cbe4;
+    border-radius: 5px;
+
+}
+
+#fiveDayWeather {
+    margin: 1%;
+}
+
+#cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.list-group-item {
+    background-color: #fbf5ff;
+}
+
+.btn-primary {
+    display: block;
+    margin-left: 5px;
+}
+
+.btn-secondary {
+    display: block;
+    margin: 4px;
+    margin-left: 8px;
+    border-color: lightgrey;
+    background-color: #3c596e;
+}
+
+.card {
+    margin: 3px;
+    width: 20%;
+    width: 175px;
+    font-size: 16px;
+    color: white;
+    background-color: #5f87be;
+}
